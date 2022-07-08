@@ -4,7 +4,7 @@
 * [Instructions](#instructions)
 * [Sources](#sources)
 ## Warning
-This build still misses main features such as the ability to restart, shutdown, wipe and fullwipe the server. This features will be added over time, this is still a personal project in progress that I made to make server deployment easier with docker. As of now I'm keeping the SteamCMD included in this repository for easy access in case I have any problem with it, eventually once I check for bugs I'll create a separate repository just for both dockerfiles, so keep that in mind.
+This build still misses main features such as the ability to restart, shutdown, wipe and fullwipe the server. This features will be added over time, this is still a personal project in progress that I made to make server deployment easier with docker.
 ### Missing Main Features
 * Restart server script
 * Shutdown server script
@@ -13,7 +13,7 @@ This build still misses main features such as the ability to restart, shutdown, 
 * Mod compatibility
 
 ## General info
-This repo includes an image called steamcmd, this image includes all the dependencies and configurations for steamcmd. This image only serves as the base image for the rust container. Under the rust directory you can find the docker file to build the rust image and container.
+This project uses docker for fast and easy implementation of Rust game server using the SteamCMD docker image I've also created, you can find additional information in the following link: https://github.com/gonnaflick/SteamCMD
 
 ## Instructions
 Instructions for installation are as follow:
@@ -72,6 +72,7 @@ You can also connect to the RCON Websocket in the following page https://facepun
 
 ## Sources
 * https://hub.docker.com/repository/docker/gonnaflick/steamcmd
+* https://github.com/gonnaflick/SteamCMD
 * https://facepunch.github.io/webrcon/#/home
 * https://developer.valvesoftware.com/wiki/Rust_Dedicated_Server#Linux_Scripts_Resources
 * https://developer.valvesoftware.com/wiki/SteamCMD#Linux
