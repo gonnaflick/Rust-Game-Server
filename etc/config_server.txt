@@ -1,0 +1,15 @@
++server.hostname "Your Server Name"
++server.description "Your Server Description"
++rcon.password "YourPassword"
++server.identity "your_server_identity"
++server.headerimage "URL to header image"
++server.url "https://github.com/gonnaflick/Rust-Game-Server"
++rcon.web 1
++server.port 28015
++rcon.port 28016
++server.ip 0.0.0.0
++rcon.ip 0.0.0.0
++server.maxplayers 50
++server.seed 50000
++server.worldsize 3000
++server.saveinterval 600
